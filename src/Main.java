@@ -35,3 +35,7 @@ public class Main {
 //    asusMonitor.assemble();
 //    msiGpu.assemble();
 //    msiMonitor.assemble();
+<<<<<<< HEAD
+=======
+;
+>>>>>>> 8741568 (Initial Commit)
