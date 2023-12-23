@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Product {
-    private int stockAmount = 0;
-    public Product(String name) {
+    String name;
+    private final List<Observer> observers = new ArrayList<>();
+    private int stockAmount;
+    public Product(String name, int stockAmount) {
         this.name = name;
+        this.stockAmount = stockAmount;
     }
 
     public int getStockAmount() {
@@ -17,8 +20,7 @@ public class Product {
         this.stockAmount = stockAmount;
     }
 
-    String name;
-    private final List<Observer> observers = new ArrayList<Observer>();
+
 
     public void attach(Observer observer){
         observers.add(observer);
