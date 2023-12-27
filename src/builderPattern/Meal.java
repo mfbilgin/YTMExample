@@ -1,6 +1,6 @@
 package builderPattern;
 
-public class Meal{
+public class Meal {
     private String mainCourse;
     private String drink;
     private String side;
@@ -37,6 +37,4 @@ public class Meal{
                 ", salad='" + salad + '\'' +
                 '}';
     }
-
-
 }

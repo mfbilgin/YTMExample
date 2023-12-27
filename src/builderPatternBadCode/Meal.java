@@ -13,12 +13,17 @@ public class Meal {
         this.dessert = dessert;
         this.salad = salad;
     }
-
     public Meal(String mainCourse, String drink, String side) {
         this.mainCourse = mainCourse;
         this.drink = drink;
         this.side = side;
     }
+    /*
+    public Meal(String mainCourse, String drink, String salad) {
+        this.mainCourse = mainCourse;
+        this.drink = drink;
+        this.salad = salad;
+    } */
 
     @Override
     public String toString() {
