@@ -10,8 +10,7 @@ class CharacterDirector {
     public Character construct() {
         return characterBuilder.setName("Kahraman")
                 .setRole("Savaşçı")
-                .setWeapon("Kılıç")
-                .setArmor("Zırh")
+                .setWeapon("Sopa")
                 .build();
     }
 }

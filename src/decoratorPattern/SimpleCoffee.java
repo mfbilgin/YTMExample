@@ -8,6 +8,6 @@ public class SimpleCoffee implements Coffee {
 
     @Override
     public String getIngredients() {
-        return "Normal Kahve";
+        return "Kahve,Su";
     }
 }

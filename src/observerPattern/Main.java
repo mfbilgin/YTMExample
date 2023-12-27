@@ -4,7 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Magazine magazine = new Magazine("ABC",0);
         Magazine magazine2 = new Magazine("DEF",0);
+
+
         Newspaper newspaper = new Newspaper("GHI");
+
         Customer customer = new Customer("user@domain.com");
         Customer customer2 = new Customer("user2@domain.com");
 
@@ -16,8 +19,7 @@ public class Main {
         // Publish new issues
         magazine.publishNewIssue();
         magazine2.publishNewIssue();
-
-        // Detach customers from magazines
+      // Detach customers from magazines
         magazine.detach(customer);
 
         // Publish new issues

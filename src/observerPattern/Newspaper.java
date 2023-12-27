@@ -32,7 +32,7 @@ public class Newspaper {
         publishDate = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 
-        String message = name + " gazetesinin " + formatter.format(publishDate) + ". tarihli basımı yayımlandı. Okumak için tıklayınız: *Link.";
+        String message = name + " gazetesinin " + formatter.format(publishDate) + " tarihli basımı yayımlandı. Okumak için tıklayınız: *Link.";
         notifyObservers(message);
     }
 }

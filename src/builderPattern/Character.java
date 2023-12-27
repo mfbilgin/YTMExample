@@ -45,8 +45,6 @@ class Character {
         this.armor = armor;
     }
 
-    // Diğer getter ve setter metotları...
-
     @Override
     public String toString() {
         return "Character [Name=" + name + ", Role=" + role + ", Weapon=" + weapon + ", Armor=" + armor + "]";

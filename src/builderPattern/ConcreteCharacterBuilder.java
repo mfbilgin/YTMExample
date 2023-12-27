@@ -1,7 +1,7 @@
 package builderPattern;
 
 class ConcreteCharacterBuilder implements CharacterBuilder {
-    private Character character;
+    private final Character character;
 
     public ConcreteCharacterBuilder() {
         this.character = new Character("", "", "", "");
