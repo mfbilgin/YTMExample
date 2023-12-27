@@ -1,6 +1,7 @@
 package decoratorPattern;
 
-public abstract class CoffeeDecorator implements Coffee {
+public abstract class CoffeeDecorator implements Coffee
+{
     protected final Coffee decoratedCoffee;
 
     public CoffeeDecorator(Coffee coffee) {
